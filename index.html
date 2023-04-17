@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Decodificador de Texto</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="img/logo.png"
+        alt="Logo"
+      />
+      <h1>CRIPTOGRAFIA</h1>
+    </header>
+    <main>
+      <div id="mensagem">
+        <textarea
+          id="input"
+          placeholder="Digite seu texto aqui."
+          scroll="no"
+        ></textarea>
+      </div>
+      <div id="output">
+        <img src="img/cadeado.png" />
+        <h2>Nenhuma mensagem encontrada</h2>
+        <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+      </div>
+    </main>
+    <div class="button-container">
+      <button onclick="criptografar()">Criptografar</button>
+      <button onclick="descriptografar()">Descriptografar</button>
+    </div>
+    <footer>
+      <p>© Italo Vieira - Todos os direitos Reservados - 2023</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
